@@ -1,0 +1,73 @@
+.title {
+    text-align: center;
+    padding: 45px;
+}
+ h1{
+    font-size: 6em;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+.img table{
+    text-align: center;
+    border: 1px solid black;
+    width: 250px;
+}
+.img table td{
+    border: solid 1px black;
+    padding: 10px;
+}
+
+aside{
+    padding: 50px;
+    text-align: center;
+}
+
+.title2{
+    display: none;
+}
+h3{
+    font-size: 3em;
+}
+.imagensSpread{
+    display: none;
+}
+
+@media  screen and (min-width: 1200px) {
+    .carrosel{
+        display: none;
+    }
+    .imagensSpread{
+        display: flex;
+    }
+    .sinopse{
+        width: 1200px;
+    }
+    main{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    article{
+        display: flex;
+        justify-content: center;
+        width: 60%;
+        padding: 50px;
+    }
+    .direita{
+        padding-top: 100px;
+        width: 40%;
+    }
+    .title2{
+        display: block;
+    }
+    .title{
+        display: none;
+    }
+}
+
+.sinopse{
+    padding: 15px;
+}
