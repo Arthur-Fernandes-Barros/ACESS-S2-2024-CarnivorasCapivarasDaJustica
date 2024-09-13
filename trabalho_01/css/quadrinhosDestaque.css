@@ -1,0 +1,44 @@
+
+a {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1198px){
+    .quadrinho2 .row{
+    display: flex;
+    flex-direction: column-reverse;
+}
+}
+
+@media screen and (min-width: 1199px) {
+    .quadrinho .row{
+        display: flex;
+        padding-bottom: 20px;
+    }
+    .quadrinho a{
+        width: 35%;
+    }
+    .quadrinho2 a{
+        width: 35%;
+    }
+    .quadrinho2 .textQuadrinho2{
+        width: 65%;
+        align-self: center;
+        padding-right: 60px;
+    }
+    .quadrinho .textQuadrinho{
+        width: 65%;
+        align-self: center;
+        padding-left: 60px;
+    }
+}
+h1{
+    color: rgb(247, 179, 34);
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    font-size: 4em;
+}
+
+main{
+    padding-bottom: 40px;
+}
