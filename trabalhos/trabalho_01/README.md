@@ -17,4 +17,4 @@
 - 2650832323032
 
 **Descrição do trabalho**:
-Foi feita a acessibilidade das páginas contato e quadrinho Jeremias (Wai-aria nas tags) 
+Com base na revisão de HTML apresenta pelo professor, reconsidere o HTML indicado nos PRINTS das telas do PI do semestre passado, e crie o HTML para a home e mais uma página 
