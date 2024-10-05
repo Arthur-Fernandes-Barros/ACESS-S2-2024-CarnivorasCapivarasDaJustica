@@ -1,0 +1,8 @@
+.nossonavbar{
+    margin: auto;
+    background-color: #F7B323;     
+}
+li{
+    font-size: 32px;
+    display: flex;
+}

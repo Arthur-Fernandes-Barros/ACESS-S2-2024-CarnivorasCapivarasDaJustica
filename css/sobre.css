@@ -1,0 +1,33 @@
+.infopessoa{
+    background-color: rgb(247, 179, 34);
+    padding: 15px;
+    margin-bottom: 10px;
+    color: black;
+    border: solid black 3px;
+    border-radius: 10px;
+    font-size: 1em;
+}
+figcaption{
+    
+    color: black;
+}
+.infopessoa a{
+    text-decoration: none;
+}
+.infopessoa a img{
+    width: 250px;
+    height: 250px;
+}
+@media screen and (min-width: 968px) {
+    .infopessoa{
+        display: flex;
+        
+    }
+    .infopessoa p{
+        padding: 15px;
+        align-self: center;
+    }
+}
+main{
+    padding: 30px;
+}
