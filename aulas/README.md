@@ -1,4 +1,4 @@
-# Trabalho Trabalho_1
+# aulas
 **Nome do grupo**: CarnivorasCapivarasDaJustica
 **Integrantes**:
 - Arthur Fernandes Barros
@@ -16,3 +16,5 @@
 - 2650832323006
 - 2650832323032
 
+**Descrição aulas**:
+Acontecimentos aulas
