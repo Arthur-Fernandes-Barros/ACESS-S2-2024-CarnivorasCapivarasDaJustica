@@ -18,7 +18,7 @@
     </div>
     <div class="container corpo p-5">
         <div role="region" aria-labelledby="Ilustra-Comic-Fest" class="row">
-            <h1>Ilustra Comic Fest Sorocaba (SESC Sorocaba)</h1>
+            <h2>Ilustra Comic Fest Sorocaba (SESC Sorocaba)</h2>
         </div>
         <div class="row">
             <p id="Ilustra-Comic-Fest" class="fs-5">
@@ -36,11 +36,11 @@
                     em: https://www.instagram.com/encontroilustra/. Acesso em: 17 jun. 2024.</small></p>
             
         </div>
-        <div role="img" aria-label="imagem-do-evento-Ilustra-Comic-Fest" class="row p-3 jorge"><img src="img/ilustrac.png" alt="imagem-do-evento-Ilustra-Comic-Fest">
+        <div role="img" aria-label="imagem-do-evento-Ilustra-Comic-Fest" class="row p-3 jorge"><img src="img/ilustrac.png" alt="imagem do evento Ilustra Comic Fest">
     </div>
 
         <div role="region" aria-labelledby="Nerd-Ibiuna" class="row">
-            <h1>Domingo Nerd Ibiúna </h1>
+            <h2>Domingo Nerd Ibiúna </h2>
         </div>
         <div class="row">
             <p id="Nerd-Ibiuna" class="fs-5">
@@ -59,7 +59,7 @@
         </div>
 
             <div role="region" aria-labelledby="Gibi-SP-Festival" class="row">
-                <h1>Gibi SP Festival</h1>
+                <h2>Gibi SP Festival</h2>
             </div>
             <div class="row">
                 <p id="Gibi-SP-Festival" class="fs-5">

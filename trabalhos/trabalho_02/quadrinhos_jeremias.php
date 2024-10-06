@@ -20,18 +20,18 @@
             <div class="direita">
                 <div role="dialog"  aria-labelledby="dialog-jeremias-pele" class="title">
                 <!-- titulo do mobile tentar esconder e vÊ se o leitor consegue lê o h1 que eu não vou esconder -->
-                    <h1 id="jeremias-pele">Jeremias- Pele</h1>
+                    <h2 id="jeremias-pele">Jeremias- Pele</h2>
                     <hr>
                 </div>
-       
+    
 
 
 
 
                 <div class="row">
 
-               <div class="col img">
-                   <img src="img/Jefferson_costa/jegermias.jpg" aria-describedby="imagem-do-quadrinho-jeremias" alt="Jeremias-Pele">
+            <div class="col img">
+                <img src="img/Jefferson_costa/jegermias.jpg" aria-describedby="imagem-do-quadrinho-jeremias" alt="Jeremias-Pele">
                 </div>
             </div>
             <div class="row">
@@ -56,14 +56,13 @@
                 </div>
             </div>
         </div>
-       
         
 
             <article role="article">
 
                 <div class="row sinopse">
                     <div role="dialog" aria-labelledby="dialog-title" class="title2">
-                        <h1 id="dialog-title">Jeremias - Pele</h1>
+                        <h2 id="dialog-title">Jeremias - Pele</h2>
                         <hr>
                     </div>
                     <h3>Sinopse:</h3>
@@ -74,7 +73,7 @@
                         pele. A história é recheada de dor, superação, aprendizado e preparação para a vida.
                         <p class="fs-6 text-muted"><small>Jeremias - Pele, .[S. l.], Disponível
                         em: https://panini.com.br/jeremias-pele-graphic-msp-capa-dura-amshc001r3. Acesso:  17 jun. 2024.</small></p>
-                 </div>
+                </div>
                 </div>
             </article>
         </main>
@@ -143,9 +142,9 @@
                     </figure>
                     <div id="imagem-do-quadrinho-La-dansarina"><p hidden>La Dansarina</p></div>
             
-               </div>
+            </div>
             
-             </div>
+            </div>
         </aside>
 
 

@@ -16,17 +16,17 @@
 
     <div class="container text-center corpo mt-3">
 
-        <main>
+        <main role="main">
             <div class="direita">
                 <div class="title">
-                    <h1>Jeremias - Pele</h1>
+                    <h2>Jeremias - Pele</h2>
                     <hr>
                 </div>
-       
+
                 <div class="row">
 
-               <div class="col img">
-                   <img src="img/Jefferson_costa/jegermias.jpg" aria-describedby="imagem-do-quadrinho-jeremias" alt="Jeremias - Pele">
+            <div class="col img">
+                <img src="img/Jefferson_costa/jegermias.jpg" aria-describedby="imagem-do-quadrinho-jeremias" alt=" foto da capa do quadrinho Jeremias - Pele">
                 </div>
             </div>
             <div class="row">
@@ -42,7 +42,7 @@
                         </tr>
                         <tr>
                             <td  role="tab">publicado em:</td>
-                            <td role="tabpanel">>2018</td>
+                            <td role="tabpanel">2018</td>
                         </tr>
                         <tr>
                             <td colspan="2">Editora Graphic MSP</td>
@@ -51,7 +51,7 @@
                 </div>
             </div>
         </div>
-       
+        
         
 
             <article role="article">
@@ -69,7 +69,7 @@
                         pele. A história é recheada de dor, superação, aprendizado e preparação para a vida.
                         <p class="fs-6 text-muted"><small>Jeremias - Pele, .[S. l.], Disponível
                         em: https://panini.com.br/jeremias-pele-graphic-msp-capa-dura-amshc001r3. Acesso:  17 jun. 2024.</small></p>
-                 </div>
+                </div>
                 </div>
             </article>
         </main>
@@ -138,9 +138,9 @@
                     </figure>
                     <div id="imagem-do-quadrinho-La-dansarina">La Dansarina</div>
             
-               </div>
+            </div>
             
-             </div>
+            </div>
         </aside>
 
 
