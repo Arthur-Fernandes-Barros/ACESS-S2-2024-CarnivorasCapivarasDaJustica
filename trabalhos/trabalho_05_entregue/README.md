@@ -17,4 +17,4 @@
 - 2650832323032
 
 **Descrição do trabalho**:
-    Criação de um Relatório de modificações de acessibilidade nos menus.
+Nesse trabalho se rotulou landmark, aria label, aria description, properties.
