@@ -12,12 +12,18 @@
         <?php include 'includes/header.php'; ?>
     </header>
 
-    
+    <nav class="mx-auto" style="width: 1140px;" aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+    <li class="breadcrumb-item"><a href="artistas.php">Artistas</li>
+  </ol>
+</nav>
+
     <div class="container corpo espaco p-5">
 
 
         <div class="row text-center p-5">
-        <div class="col-lg-6 col-md-12 col-sm-12 fotos">
+        <div class="col-lg-6 col-md-12 col-sm-12 foto">
             <section>
                 <h1 hidden>foto de rubens menezes</h1>
                 <img src="img/Rubens/rubens.png" alt="foto do Rubens" class="img_perfil centralizador">  
