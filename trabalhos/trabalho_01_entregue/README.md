@@ -9,6 +9,7 @@ Julio Giancoli Reguengo Ramalho
 Adriano Gomes da Paz 
   
 **Email do representante**: arthur.barros@fatec.sp.gov.br
+
 **GitHub ID**:
 
 Arthur-Fernandes-Barros
