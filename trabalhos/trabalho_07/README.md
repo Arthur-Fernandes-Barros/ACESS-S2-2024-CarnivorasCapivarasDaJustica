@@ -27,4 +27,4 @@ Adriano-Paz
 2650832323032
 
 
-**Descrição do trabalho**: Criação de um Relatório de modificações de cores para acessibilidade
+**Descrição do trabalho**: estilização de elementos HTML para acessibilidade
