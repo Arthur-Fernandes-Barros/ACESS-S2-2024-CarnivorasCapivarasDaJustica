@@ -27,4 +27,5 @@ Adriano-Paz
 2650832323032
 
 
-**Descrição do trabalho**: Criação de um Relatório de modificações de cores para acessibilidade
+**Descrição do trabalho**: Neste trabalho foram criadas as tabelas de sql necessarias para nosso site. 
+Database FATECON, com tabelas ARTISTAS e OBRAS.
