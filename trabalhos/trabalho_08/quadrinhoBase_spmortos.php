@@ -4,14 +4,13 @@
 <head>
     <?php include 'includes/head.php'; ?>
     <link rel="stylesheet" href="css/layoutquadrinho.css">
-    <title>Assombracontos</title>
+    <title>São Paulo dos Mortos</title>
 </head>
 
 <body>
 
     <header>
-        <?php include 'includes/header.php'; 
-        $id = 10; ?>
+        <?php include 'includes/header.php'; ?>
     </header>
     <nav class="mx-auto" style="width: 1140px;" aria-label="breadcrumb">
         <ol class="breadcrumb">
@@ -20,38 +19,21 @@
         </ol>
     </nav>
 
-    <div class="container text-center corpo mt-3">
-
+    <div class="container text-center corpo">
         <main>
             <div class="direita">
                 <div class="title">
-                    <h1>Assombracontos</h1>
+                    <h1>São Paulo dos Mortos</h1>
                     <hr>
                 </div>
                 <div class="row">
                     <div class="col img">
-                        <img src="img/kiko_garcia/assombracontos.jpg" alt="Capa do livro">
+                        <img src="img/esteves/mortos.jpg" alt="São Paulo dos mortos">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col img">
-                        <table>
-                            <tr>
-                                <th colspan="2">Assombracontos</th>
-                            </tr>
-                            <tr>
-                                <td>Autor:</td>
-                                <td>Kiko Garcia</td>
-                            </tr>
-                            <tr>
-                                <td>publicado em:</td>
-                                <td>2021</td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">Editora Kikomics</td>
-                            </tr>
-                        </table>
-
+                    <?php  $id = 1;include 'exibeTabelaObra.php';?>
                     </div>
                 </div>
             </div>
@@ -59,21 +41,23 @@
 
                 <div class="row sinopse">
                     <div class="title2">
-                        <h1>Assombracontos</h1>
+                        <h1>São Paulo dos Mortos</h1>
                         <hr>
                     </div>
                     <h3>Sinopse:</h3>
                     <p class="fs-4">
-                        "A Coletânea Assombracontos de Kiko Garcia" leva os leitores a um ambiente sombrio e fascinante,
-                        onde quatro jovens se encontram em um antigo cemitério, prontos para compartilhar histórias que
-                        desafiam os limites do medo. Este livro de estreia da Kikomics, em colaboração com a La Ursa
-                        Livros e O Recife Assombrado, apresenta quatro contos habilmente criados por Kiko Garcia e
-                        ilustrados por Roberto Beltrão. Com lendas de sítios, folclore brasileiro e narrativas que
-                        arrepiam a alma, os leitores são conduzidos por um passeio macabro pela imaginação, onde o
-                        terror se entrelaça com a rica tradição oral do Brasil.</p>
-                        <p class="fs-6 text-muted"><small>Sinopse Assombracontos, .[S.
-                            l.], Disponível
-                            em: https://kikomics.com.br. Acesso: 17 jun. 2024.</small></p>
+                        "São Paulo dos Mortos" é uma graphic novel que mergulha profundamente no cenário urbano de São
+                        Paulo após um apocalipse zumbi. Criada por Daniel Esteves, a obra apresenta uma cidade assolada
+                        por uma epidemia que transforma seus habitantes em mortos-vivos sedentos por carne. Em meio ao
+                        caos, grupos de sobreviventes lutam para encontrar segurança e respostas, explorando as ruínas
+                        da metrópole enquanto enfrentam tanto os perigos externos quanto os internos. Com uma arte
+                        vibrante e uma narrativa que mistura horror, suspense e crítica social, "São Paulo dos Mortos"
+                        oferece uma visão única e perturbadora do que poderia ser o colapso da civilização em um dos
+                        maiores centros urbanos da América Latina.
+                        <p class="fs-6 text-muted"><small>Sinopse São Paulo dos mortos, .[S. l.], Disponível
+                        em: https://zapataedicoes.com.br. Acesso:  17 jun. 2024.</small></p>
+
+                    </p>
                 </div>
             </article>
         </main>
@@ -93,7 +77,7 @@
                     <div class="carousel-inner">
                         <div class="carousel-item d-flex justify-content-center active">
                             <!-- INCLUIR IMAGEM DA OBRA -->
-                            <img src="img/kiko_garcia/terraroxa.jpg" class="d-flex justify-content-center  carrouselart"
+                            <img src="img/esteves/nemo.jpg" class="d-flex justify-content-center  carrouselart"
                                 alt="Obra 1">
                             <div class="carousel-caption d-none d-md-block">
 
@@ -101,7 +85,7 @@
                         </div>
                         <div class="carousel-item d-flex justify-content-center">
                             <!-- INCLUIR IMAGEM DA OBRA -->
-                            <img src="img/kiko_garcia/livro1.jpg" class="d-flex justify-content-center  carrouselart"
+                            <img src="img/esteves/zapata.jpg" class="d-flex justify-content-center  carrouselart"
                                 alt="Obra 2">
                             <div class="carousel-caption d-none d-md-block">
                             </div>
@@ -121,36 +105,36 @@
                 </div>
             </div>
             <div class="row imagensSpread">
+
                 <div class="col">
                     <figure>
-                        <a href="quadrinhoBase_terraroxa.php">
-                            <img src="img/kiko_garcia/terraroxa.jpg" alt="livro terra Roxa">
+                        <a href="quadrinhoBase_nemo.php">
+                            <img src="img/esteves/nemo.jpg" alt="As aventuras de capitao nemo">
+
 
                         </a>
-                        <figcaption>Terra Roxa</figcaption>
+                        <figcaption>As aventuras de Capitão Nemo</figcaption>
                     </figure>
                 </div>
                 <div class="col">
                     <figure>
-                        <a href="quadrinhoBase_capapreta.php">
-                            <img src="img/kiko_garcia/livro1.jpg" alt="Livro o homem da capa preta">
+                        <a href="quadrinhoBase_zapata.php">
+                            <img src="img/esteves/zapata.jpg" alt="Por mais um dia com zapata">
+
+
                         </a>
-                        <figcaption>O homem da capa Preta</figcaption>
+                        <figcaption>Por mais um dia com zapata</figcaption>
                     </figure>
                 </div>
-
             </div>
         </aside>
 
-
-
-
-
     </div>
-
-    <footer>
-        <?php include 'includes/footer.php'; ?>
-    </footer>
+    <div class="container-fluid">
+        <footer>
+            <?php include 'includes/footer.php'; ?>
+        </footer>
+    </div>
 
 </body>
 

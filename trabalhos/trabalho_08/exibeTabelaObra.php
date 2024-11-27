@@ -1,9 +1,6 @@
 <?php
 include 'conectaBanco.php'; 
 
-// Configuração fixa do ID
-$id = 1; // Substitua pelo ID desejado
-
 // Consulta SQL para buscar os detalhes da obra
 $sql = "SELECT o.titulo, a.nome AS artista, o.ano_lancamento, o.editora
         FROM obras o

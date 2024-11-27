@@ -4,14 +4,15 @@
 <head>
     <?php include 'includes/head.php'; ?>
     <link rel="stylesheet" href="css/layoutquadrinho.css">
-    <title>Assombracontos</title>
+    <title>Afeto</title>
 </head>
 
 <body>
 
     <header>
         <?php include 'includes/header.php'; 
-        $id = 10; ?>
+        $id = 14;
+        ?>
     </header>
     <nav class="mx-auto" style="width: 1140px;" aria-label="breadcrumb">
         <ol class="breadcrumb">
@@ -25,33 +26,17 @@
         <main>
             <div class="direita">
                 <div class="title">
-                    <h1>Assombracontos</h1>
+                    <h1>Afeto</h1>
                     <hr>
                 </div>
                 <div class="row">
                     <div class="col img">
-                        <img src="img/kiko_garcia/assombracontos.jpg" alt="Capa do livro">
+                        <img src="img/vivi_melancia/afeto.png" alt="Afeto">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col img">
-                        <table>
-                            <tr>
-                                <th colspan="2">Assombracontos</th>
-                            </tr>
-                            <tr>
-                                <td>Autor:</td>
-                                <td>Kiko Garcia</td>
-                            </tr>
-                            <tr>
-                                <td>publicado em:</td>
-                                <td>2021</td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">Editora Kikomics</td>
-                            </tr>
-                        </table>
-
+                        <?php include 'exibeTabelaObra.php';?>
                     </div>
                 </div>
             </div>
@@ -59,21 +44,21 @@
 
                 <div class="row sinopse">
                     <div class="title2">
-                        <h1>Assombracontos</h1>
+                        <h1>Afeto</h1>
                         <hr>
                     </div>
                     <h3>Sinopse:</h3>
                     <p class="fs-4">
-                        "A Coletânea Assombracontos de Kiko Garcia" leva os leitores a um ambiente sombrio e fascinante,
-                        onde quatro jovens se encontram em um antigo cemitério, prontos para compartilhar histórias que
-                        desafiam os limites do medo. Este livro de estreia da Kikomics, em colaboração com a La Ursa
-                        Livros e O Recife Assombrado, apresenta quatro contos habilmente criados por Kiko Garcia e
-                        ilustrados por Roberto Beltrão. Com lendas de sítios, folclore brasileiro e narrativas que
-                        arrepiam a alma, os leitores são conduzidos por um passeio macabro pela imaginação, onde o
-                        terror se entrelaça com a rica tradição oral do Brasil.</p>
-                        <p class="fs-6 text-muted"><small>Sinopse Assombracontos, .[S.
+                        Maria é uma garota de treze anos que acabou de mudar de cidade e começou a estudar na Escola
+                        Pública Paulo Freire, em São Paulo. Junto com a adaptação na escola nova, Maria enfrenta
+                        diversos desafios, pelo simples fato de ser uma menina. Assim, essa HQ aborda questões de gênero
+                        e sexualidade que acontecem no cotidiano, que muitas vezes passam despercebidas, ou que são
+                        vistas como “naturais” apesar de estarem envoltas de diversas micro violências, físicas ou
+                        emocionais.
+                    </p>
+                    <p class="fs-6 text-muted"><small>Sinopse Afeto, .[S.
                             l.], Disponível
-                            em: https://kikomics.com.br. Acesso: 17 jun. 2024.</small></p>
+                            em: https://www.ugrapress.com.br/produtos/afeto/. Acesso: 17 jun. 2024.</small></p>
                 </div>
             </article>
         </main>
@@ -91,17 +76,9 @@
                             aria-label="Slide 2"></button>
                     </div>
                     <div class="carousel-inner">
-                        <div class="carousel-item d-flex justify-content-center active">
-                            <!-- INCLUIR IMAGEM DA OBRA -->
-                            <img src="img/kiko_garcia/terraroxa.jpg" class="d-flex justify-content-center  carrouselart"
-                                alt="Obra 1">
-                            <div class="carousel-caption d-none d-md-block">
-
-                            </div>
-                        </div>
                         <div class="carousel-item d-flex justify-content-center">
                             <!-- INCLUIR IMAGEM DA OBRA -->
-                            <img src="img/kiko_garcia/livro1.jpg" class="d-flex justify-content-center  carrouselart"
+                            <img src="img/vivi_melancia/docinho.png" class="d-flex justify-content-center  carrouselart"
                                 alt="Obra 2">
                             <div class="carousel-caption d-none d-md-block">
                             </div>
@@ -123,20 +100,12 @@
             <div class="row imagensSpread">
                 <div class="col">
                     <figure>
-                        <a href="quadrinhoBase_terraroxa.php">
-                            <img src="img/kiko_garcia/terraroxa.jpg" alt="livro terra Roxa">
+                        <a href="quadrinhoBase_DocinhoFamilia.php">
+                            <img src="img/vivi_melancia/docinho.png" alt="Docinho em familia">
 
                         </a>
-                        <figcaption>Terra Roxa</figcaption>
                     </figure>
-                </div>
-                <div class="col">
-                    <figure>
-                        <a href="quadrinhoBase_capapreta.php">
-                            <img src="img/kiko_garcia/livro1.jpg" alt="Livro o homem da capa preta">
-                        </a>
-                        <figcaption>O homem da capa Preta</figcaption>
-                    </figure>
+                    <figcaption>Docinho em familía</figcaption>
                 </div>
 
             </div>

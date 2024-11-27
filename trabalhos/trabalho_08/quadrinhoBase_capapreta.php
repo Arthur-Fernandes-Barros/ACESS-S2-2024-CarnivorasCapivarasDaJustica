@@ -4,14 +4,13 @@
 <head>
     <?php include 'includes/head.php'; ?>
     <link rel="stylesheet" href="css/layoutquadrinho.css">
-    <title>Assombracontos</title>
+    <title>O Homem da Capa Preta</title>
 </head>
 
 <body>
 
     <header>
-        <?php include 'includes/header.php'; 
-        $id = 10; ?>
+        <?php include 'includes/header.php'; ?>
     </header>
     <nav class="mx-auto" style="width: 1140px;" aria-label="breadcrumb">
         <ol class="breadcrumb">
@@ -25,33 +24,18 @@
         <main>
             <div class="direita">
                 <div class="title">
-                    <h1>Assombracontos</h1>
+                    <h1>O Homem da Capa Preta</h1>
                     <hr>
                 </div>
                 <div class="row">
                     <div class="col img">
-                        <img src="img/kiko_garcia/assombracontos.jpg" alt="Capa do livro">
+                        <img src="img/kiko_garcia/livro1.jpg" alt="">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col img">
-                        <table>
-                            <tr>
-                                <th colspan="2">Assombracontos</th>
-                            </tr>
-                            <tr>
-                                <td>Autor:</td>
-                                <td>Kiko Garcia</td>
-                            </tr>
-                            <tr>
-                                <td>publicado em:</td>
-                                <td>2021</td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">Editora Kikomics</td>
-                            </tr>
-                        </table>
-
+                    <?php $id = 8;include 'exibeTabelaObra.php';
+                    ?>
                     </div>
                 </div>
             </div>
@@ -59,19 +43,19 @@
 
                 <div class="row sinopse">
                     <div class="title2">
-                        <h1>Assombracontos</h1>
+                        <h1>O Homem da Capa Preta</h1>
                         <hr>
                     </div>
                     <h3>Sinopse:</h3>
                     <p class="fs-4">
-                        "A Coletânea Assombracontos de Kiko Garcia" leva os leitores a um ambiente sombrio e fascinante,
-                        onde quatro jovens se encontram em um antigo cemitério, prontos para compartilhar histórias que
-                        desafiam os limites do medo. Este livro de estreia da Kikomics, em colaboração com a La Ursa
-                        Livros e O Recife Assombrado, apresenta quatro contos habilmente criados por Kiko Garcia e
-                        ilustrados por Roberto Beltrão. Com lendas de sítios, folclore brasileiro e narrativas que
-                        arrepiam a alma, os leitores são conduzidos por um passeio macabro pela imaginação, onde o
-                        terror se entrelaça com a rica tradição oral do Brasil.</p>
-                        <p class="fs-6 text-muted"><small>Sinopse Assombracontos, .[S.
+                        A coletânea "O Homem da Capa Preta", de Kiko Garcia, lançada em 2018, mergulha os leitores em um
+                        universo repleto de mistério e elementos sobrenaturais. Com ilustrações que acentuam a atmosfera
+                        sombria, o livro convida os leitores a explorar histórias sinistras na companhia de seu
+                        enigmático protagonista. Cada conto revela tramas fascinantes e perturbadoras, onde o
+                        inexplicável se entrelaça com o dia a dia, criando um ambiente onde segredos sombrios emergem
+                        das sombras. Prepare-se para uma jornada onde o desconhecido se revela a cada esquina, enquanto
+                        o suspense aumenta a cada página virada.</p>
+                        <p class="fs-6 text-muted"><small>Sinopse O Homem da Capa Preta, .[S.
                             l.], Disponível
                             em: https://kikomics.com.br. Acesso: 17 jun. 2024.</small></p>
                 </div>
@@ -124,19 +108,20 @@
                 <div class="col">
                     <figure>
                         <a href="quadrinhoBase_terraroxa.php">
-                            <img src="img/kiko_garcia/terraroxa.jpg" alt="livro terra Roxa">
+                            <img src="img/kiko_garcia/terraroxa.jpg" alt="Terra Roxa">
 
                         </a>
-                        <figcaption>Terra Roxa</figcaption>
                     </figure>
+                    <figcaption>Terra Roxa</figcaption>
                 </div>
                 <div class="col">
                     <figure>
-                        <a href="quadrinhoBase_capapreta.php">
-                            <img src="img/kiko_garcia/livro1.jpg" alt="Livro o homem da capa preta">
+                        <a href="quadrinhoBase_assombracontos.php">
+                            <img src="img/kiko_garcia/assombracontos.jpg" alt="Assombracontos">
+
                         </a>
-                        <figcaption>O homem da capa Preta</figcaption>
                     </figure>
+                    <figcaption>Assombracontos</figcaption>
                 </div>
 
             </div>
