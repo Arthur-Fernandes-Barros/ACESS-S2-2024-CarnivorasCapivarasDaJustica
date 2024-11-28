@@ -4,14 +4,13 @@
 <head>
     <?php include 'includes/head.php'; ?>
     <link rel="stylesheet" href="css/layoutquadrinho.css">
-    <title>Assombracontos</title>
+    <title>Terra Roxa</title>
 </head>
 
 <body>
 
     <header>
-        <?php include 'includes/header.php'; 
-        $id = 10; ?>
+        <?php include 'includes/header.php'; ?>
     </header>
     <nav class="mx-auto" style="width: 1140px;" aria-label="breadcrumb">
         <ol class="breadcrumb">
@@ -25,33 +24,14 @@
         <main>
             <div class="direita">
                 <div class="title">
-                    <h1>Assombracontos</h1>
+                    <h1>Terra Roxa</h1>
                     <hr>
                 </div>
                 <div class="row">
                     <div class="col img">
-                        <img src="img/kiko_garcia/assombracontos.jpg" alt="Capa do livro">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col img">
-                        <table>
-                            <tr>
-                                <th colspan="2">Assombracontos</th>
-                            </tr>
-                            <tr>
-                                <td>Autor:</td>
-                                <td>Kiko Garcia</td>
-                            </tr>
-                            <tr>
-                                <td>publicado em:</td>
-                                <td>2021</td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">Editora Kikomics</td>
-                            </tr>
-                        </table>
-
+                    <?php $id = 9;
+                    include 'exibeTabelaObra.php';
+                    ?>
                     </div>
                 </div>
             </div>
@@ -59,21 +39,29 @@
 
                 <div class="row sinopse">
                     <div class="title2">
-                        <h1>Assombracontos</h1>
+                        <h1>Terra Roxa</h1>
                         <hr>
                     </div>
                     <h3>Sinopse:</h3>
                     <p class="fs-4">
-                        "A Coletânea Assombracontos de Kiko Garcia" leva os leitores a um ambiente sombrio e fascinante,
-                        onde quatro jovens se encontram em um antigo cemitério, prontos para compartilhar histórias que
-                        desafiam os limites do medo. Este livro de estreia da Kikomics, em colaboração com a La Ursa
-                        Livros e O Recife Assombrado, apresenta quatro contos habilmente criados por Kiko Garcia e
-                        ilustrados por Roberto Beltrão. Com lendas de sítios, folclore brasileiro e narrativas que
-                        arrepiam a alma, os leitores são conduzidos por um passeio macabro pela imaginação, onde o
-                        terror se entrelaça com a rica tradição oral do Brasil.</p>
-                        <p class="fs-6 text-muted"><small>Sinopse Assombracontos, .[S.
+                        "Terra Roxa", uma graphic novel de Kiko Garcia, que mergulha em um cenário distópico onde o
+                        Brasil se transformou em um território dominado pelo Canavieirismo. Nesta obra, o autor não
+                        apenas explora temas como falsas promessas, regimes opressivos e desrespeito ambiental, mas
+                        também lança luz sobre os conflitos humanos exacerbados por essas condições extremas.
+
+                        No enredo de "Terra Roxa", o fanatismo conduz as pessoas a sacrificar o que mais valorizam em
+                        troca de uma vida marcada pelo ódio. Nesse contexto sombrio, um canavial amaldiçoado emerge da
+                        terra, desencadeando eventos sobrenaturais que desafiam as estruturas de poder estabelecidas.
+                        Kiko Garcia não só escreve como também ilustra e desenha a obra, contribuindo para a
+                        profundidade visual e narrativa da história.
+
+                        A história da HQ se desenrola num futuro onde o país é transformado em um mero território
+                        dominado pela produção de cana-de-açúcar, submetendo seus habitantes a uma existência marcada
+                        pelo trabalho exaustivo e pela subjugação.
+                        <p class="fs-6 text-muted"><small>Sinopse Terra Roxa, .[S.
                             l.], Disponível
                             em: https://kikomics.com.br. Acesso: 17 jun. 2024.</small></p>
+                    </p>
                 </div>
             </article>
         </main>
@@ -93,8 +81,8 @@
                     <div class="carousel-inner">
                         <div class="carousel-item d-flex justify-content-center active">
                             <!-- INCLUIR IMAGEM DA OBRA -->
-                            <img src="img/kiko_garcia/terraroxa.jpg" class="d-flex justify-content-center  carrouselart"
-                                alt="Obra 1">
+                            <img src="img/kiko_garcia/assombracontos.jpg"
+                                class="d-flex justify-content-center  carrouselart" alt="Obra 1">
                             <div class="carousel-caption d-none d-md-block">
 
                             </div>
@@ -123,20 +111,21 @@
             <div class="row imagensSpread">
                 <div class="col">
                     <figure>
-                        <a href="quadrinhoBase_terraroxa.php">
-                            <img src="img/kiko_garcia/terraroxa.jpg" alt="livro terra Roxa">
+                        <a href="quadrinhoBase_assombracontos.php">
+                            <img src="img/kiko_garcia/assombracontos.jpg" alt="Assombracontos">
 
                         </a>
-                        <figcaption>Terra Roxa</figcaption>
                     </figure>
+                    <figcaption>Assombracontos</figcaption>
                 </div>
                 <div class="col">
                     <figure>
                         <a href="quadrinhoBase_capapreta.php">
-                            <img src="img/kiko_garcia/livro1.jpg" alt="Livro o homem da capa preta">
+                            <img src="img/kiko_garcia/livro1.jpg" alt="O homem da capa preta">
+
                         </a>
-                        <figcaption>O homem da capa Preta</figcaption>
                     </figure>
+                    <figcaption>O homem da capa preta</figcaption>
                 </div>
 
             </div>

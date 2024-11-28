@@ -1,11 +1,8 @@
 <?php
 include 'conectaBanco.php'; 
 
-// Configuração fixa do ID
-$id = 1; // Substitua pelo ID desejado
-
 // Consulta SQL para buscar os detalhes da obra
-$sql = "SELECT o.titulo, a.nome AS artista, o.ano_lancamento, o.editora
+$sql = "SELECT o.titulo, a.nome AS artista, o.ano_lancamento, o.editora, o.imgCapa
         FROM obras o
         LEFT JOIN artistas a ON o.artista_id = a.id
         WHERE o.id = ?";
@@ -20,6 +17,7 @@ if ($result->num_rows > 0) {
 
     // Exibir os dados da obra em uma tabela HTML
     echo "<table border='1' style='border-collapse: collapse; width: 300px; margin-bottom: 20px;'>";
+    echo "<tr><td colspan ='2'><img src='" . $row['imgCapa'] . "'></td><tr>";
     echo "<tr>
             <th colspan='2' style='text-align: center;'>{$row['titulo']}</th>
         </tr>";

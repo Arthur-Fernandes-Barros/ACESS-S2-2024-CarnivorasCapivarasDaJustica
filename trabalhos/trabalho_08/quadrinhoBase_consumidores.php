@@ -4,14 +4,13 @@
 <head>
     <?php include 'includes/head.php'; ?>
     <link rel="stylesheet" href="css/layoutquadrinho.css">
-    <title>Assombracontos</title>
+    <title>Quadrinho X</title>
 </head>
 
 <body>
 
     <header>
-        <?php include 'includes/header.php'; 
-        $id = 10; ?>
+        <?php include 'includes/header.php'; ?>
     </header>
     <nav class="mx-auto" style="width: 1140px;" aria-label="breadcrumb">
         <ol class="breadcrumb">
@@ -25,33 +24,14 @@
         <main>
             <div class="direita">
                 <div class="title">
-                    <h1>Assombracontos</h1>
+                    <h1>Os Consumidores Selvagens e a Ascensão dos Palhaços</h1>
                     <hr>
                 </div>
                 <div class="row">
                     <div class="col img">
-                        <img src="img/kiko_garcia/assombracontos.jpg" alt="Capa do livro">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col img">
                         <table>
-                            <tr>
-                                <th colspan="2">Assombracontos</th>
-                            </tr>
-                            <tr>
-                                <td>Autor:</td>
-                                <td>Kiko Garcia</td>
-                            </tr>
-                            <tr>
-                                <td>publicado em:</td>
-                                <td>2021</td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">Editora Kikomics</td>
-                            </tr>
-                        </table>
-
+                        <?php  $id = 11;include 'exibeTabelaObra.php';
+                    ?>
                     </div>
                 </div>
             </div>
@@ -59,21 +39,24 @@
 
                 <div class="row sinopse">
                     <div class="title2">
-                        <h1>Assombracontos</h1>
+                        <h1>Os Consumidores Selvagens e a Ascensão dos Palhaços</h1>
                         <hr>
                     </div>
                     <h3>Sinopse:</h3>
                     <p class="fs-4">
-                        "A Coletânea Assombracontos de Kiko Garcia" leva os leitores a um ambiente sombrio e fascinante,
-                        onde quatro jovens se encontram em um antigo cemitério, prontos para compartilhar histórias que
-                        desafiam os limites do medo. Este livro de estreia da Kikomics, em colaboração com a La Ursa
-                        Livros e O Recife Assombrado, apresenta quatro contos habilmente criados por Kiko Garcia e
-                        ilustrados por Roberto Beltrão. Com lendas de sítios, folclore brasileiro e narrativas que
-                        arrepiam a alma, os leitores são conduzidos por um passeio macabro pela imaginação, onde o
-                        terror se entrelaça com a rica tradição oral do Brasil.</p>
-                        <p class="fs-6 text-muted"><small>Sinopse Assombracontos, .[S.
+                        Os Consumidores Selvagens e a ascensão dos palhaços é um gibi agridoce. Faz você rir. Daí, faz
+                        você pensar. Então, você começa a achar que não deveria estar rindo. Daí, você continua lendo,
+                        ri de novo, e o ciclo recomeça.
+                        É uma sátira, uma paródia sobre um país muito querido, mas muito duro de se viver. É ainda um
+                        esforço para explicar uma ideia, uma tentativa de — como a criança da fábula — gritar para todo
+                        mundo na praça: “O Rei está nu!”
+                        É também a vontade de mudar o mundo, porque histórias em quadrinhos são uma forma de arte, e
+                        toda arte que se preze precisa tentar mudar o mundo. Porque se não tivermos mais nada, ainda
+                        vamos ter a arte e a esperança.
+                    </p>
+                    <p class="fs-6 text-muted"><small>Sinopse Os Consumidores Selvagens e a Ascensão dos Palhaços, .[S.
                             l.], Disponível
-                            em: https://kikomics.com.br. Acesso: 17 jun. 2024.</small></p>
+                            em: https://sedicao.com.br. Acesso: 17 jun. 2024.</small></p>
                 </div>
             </article>
         </main>
@@ -93,7 +76,7 @@
                     <div class="carousel-inner">
                         <div class="carousel-item d-flex justify-content-center active">
                             <!-- INCLUIR IMAGEM DA OBRA -->
-                            <img src="img/kiko_garcia/terraroxa.jpg" class="d-flex justify-content-center  carrouselart"
+                            <img src="img/rubens/urubus.jpg" class="d-flex justify-content-center  carrouselart"
                                 alt="Obra 1">
                             <div class="carousel-caption d-none d-md-block">
 
@@ -101,7 +84,7 @@
                         </div>
                         <div class="carousel-item d-flex justify-content-center">
                             <!-- INCLUIR IMAGEM DA OBRA -->
-                            <img src="img/kiko_garcia/livro1.jpg" class="d-flex justify-content-center  carrouselart"
+                            <img src="img/rubens/mexericas.jpg" class="d-flex justify-content-center  carrouselart"
                                 alt="Obra 2">
                             <div class="carousel-caption d-none d-md-block">
                             </div>
@@ -123,20 +106,21 @@
             <div class="row imagensSpread">
                 <div class="col">
                     <figure>
-                        <a href="quadrinhoBase_terraroxa.php">
-                            <img src="img/kiko_garcia/terraroxa.jpg" alt="livro terra Roxa">
+                        <a href="quadrinhoBase_Mexericas.php">
+                            <img src="img/rubens/mexericas.jpg" alt="Mexericas">
 
                         </a>
-                        <figcaption>Terra Roxa</figcaption>
                     </figure>
+                    <figcaption>Mexericas</figcaption>
                 </div>
                 <div class="col">
                     <figure>
-                        <a href="quadrinhoBase_capapreta.php">
-                            <img src="img/kiko_garcia/livro1.jpg" alt="Livro o homem da capa preta">
+                        <a href="quadrinhoBase_urubus.php">
+                            <img src="img/rubens/urubus.jpg" alt="Urubus">
+
                         </a>
-                        <figcaption>O homem da capa Preta</figcaption>
                     </figure>
+                    <figcaption>Urubus</figcaption>
                 </div>
 
             </div>

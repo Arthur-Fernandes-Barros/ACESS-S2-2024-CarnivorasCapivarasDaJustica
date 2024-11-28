@@ -4,14 +4,13 @@
 <head>
     <?php include 'includes/head.php'; ?>
     <link rel="stylesheet" href="css/layoutquadrinho.css">
-    <title>Assombracontos</title>
+    <title>As aventuras do Capitão Nemo</title>
 </head>
 
 <body>
 
     <header>
-        <?php include 'includes/header.php'; 
-        $id = 10; ?>
+        <?php include 'includes/header.php'; ?>
     </header>
     <nav class="mx-auto" style="width: 1140px;" aria-label="breadcrumb">
         <ol class="breadcrumb">
@@ -20,38 +19,16 @@
         </ol>
     </nav>
 
-    <div class="container text-center corpo mt-3">
-
+    <div class="container text-center corpo">
         <main>
             <div class="direita">
                 <div class="title">
-                    <h1>Assombracontos</h1>
+                    <h1>As aventuras do Capitão Nemo</h1>
                     <hr>
                 </div>
                 <div class="row">
                     <div class="col img">
-                        <img src="img/kiko_garcia/assombracontos.jpg" alt="Capa do livro">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col img">
-                        <table>
-                            <tr>
-                                <th colspan="2">Assombracontos</th>
-                            </tr>
-                            <tr>
-                                <td>Autor:</td>
-                                <td>Kiko Garcia</td>
-                            </tr>
-                            <tr>
-                                <td>publicado em:</td>
-                                <td>2021</td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">Editora Kikomics</td>
-                            </tr>
-                        </table>
-
+                    <?php  $id = 2;include 'exibeTabelaObra.php';?>
                     </div>
                 </div>
             </div>
@@ -59,21 +36,22 @@
 
                 <div class="row sinopse">
                     <div class="title2">
-                        <h1>Assombracontos</h1>
+                        <h1>As aventuras do Capitão Nemo</h1>
                         <hr>
                     </div>
                     <h3>Sinopse:</h3>
                     <p class="fs-4">
-                        "A Coletânea Assombracontos de Kiko Garcia" leva os leitores a um ambiente sombrio e fascinante,
-                        onde quatro jovens se encontram em um antigo cemitério, prontos para compartilhar histórias que
-                        desafiam os limites do medo. Este livro de estreia da Kikomics, em colaboração com a La Ursa
-                        Livros e O Recife Assombrado, apresenta quatro contos habilmente criados por Kiko Garcia e
-                        ilustrados por Roberto Beltrão. Com lendas de sítios, folclore brasileiro e narrativas que
-                        arrepiam a alma, os leitores são conduzidos por um passeio macabro pela imaginação, onde o
-                        terror se entrelaça com a rica tradição oral do Brasil.</p>
-                        <p class="fs-6 text-muted"><small>Sinopse Assombracontos, .[S.
-                            l.], Disponível
-                            em: https://kikomics.com.br. Acesso: 17 jun. 2024.</small></p>
+                        "As Aventuras de Capitão Nemo", escrita por Daniel Esteves, é uma vibrante narrativa que
+                        mergulha nos mistérios submarinos e nas intrigas do capitão Nemo, personagem icônico da
+                        literatura de Jules Verne. Esteves transporta os leitores para um mundo submarino repleto de
+                        aventuras, explorando não apenas os segredos dos oceanos, mas também os conflitos internos e as
+                        motivações do enigmático capitão. Com ilustrações envolventes que capturam a grandiosidade e o
+                        mistério das profundezas marítimas, a obra não apenas homenageia o clássico de Verne, mas também
+                        oferece uma nova perspectiva sobre um dos personagens mais fascinantes da literatura mundial.
+
+                    </p>
+                    <p class="fs-6 text-muted"><small>Sinopse As aventuras do Capitão Nemo, .[S. l.], Disponível
+                    em: https://zapataedicoes.com.br. Acesso:  17 jun. 2024.</small></p>
                 </div>
             </article>
         </main>
@@ -93,7 +71,7 @@
                     <div class="carousel-inner">
                         <div class="carousel-item d-flex justify-content-center active">
                             <!-- INCLUIR IMAGEM DA OBRA -->
-                            <img src="img/kiko_garcia/terraroxa.jpg" class="d-flex justify-content-center  carrouselart"
+                            <img src="img/esteves/nemo.jpg" class="d-flex justify-content-center  carrouselart"
                                 alt="Obra 1">
                             <div class="carousel-caption d-none d-md-block">
 
@@ -101,7 +79,7 @@
                         </div>
                         <div class="carousel-item d-flex justify-content-center">
                             <!-- INCLUIR IMAGEM DA OBRA -->
-                            <img src="img/kiko_garcia/livro1.jpg" class="d-flex justify-content-center  carrouselart"
+                            <img src="img/esteves/zapata.jpg" class="d-flex justify-content-center  carrouselart"
                                 alt="Obra 2">
                             <div class="carousel-caption d-none d-md-block">
                             </div>
@@ -121,36 +99,32 @@
                 </div>
             </div>
             <div class="row imagensSpread">
+
                 <div class="col">
                     <figure>
-                        <a href="quadrinhoBase_terraroxa.php">
-                            <img src="img/kiko_garcia/terraroxa.jpg" alt="livro terra Roxa">
-
+                        <a href="quadrinhoBase_spmortos.php">
+                            <img src="img/esteves/mortos.jpg" alt="São Paulo dos mortos">
                         </a>
-                        <figcaption>Terra Roxa</figcaption>
+                        <figcaption>São Paulo dos mortos</figcaption>
                     </figure>
                 </div>
                 <div class="col">
                     <figure>
-                        <a href="quadrinhoBase_capapreta.php">
-                            <img src="img/kiko_garcia/livro1.jpg" alt="Livro o homem da capa preta">
+                        <a href="quadrinhoBase_zapata.php">
+                            <img src="img/esteves/zapata.jpg" alt="Por mais um dia com Zapata">
                         </a>
-                        <figcaption>O homem da capa Preta</figcaption>
+                        <figcaption>Por mais um dia com Zapata</figcaption>
                     </figure>
                 </div>
-
             </div>
         </aside>
 
-
-
-
-
     </div>
-
-    <footer>
-        <?php include 'includes/footer.php'; ?>
-    </footer>
+    <div class="container-fluid">
+        <footer>
+            <?php include 'includes/footer.php'; ?>
+        </footer>
+    </div>
 
 </body>
 

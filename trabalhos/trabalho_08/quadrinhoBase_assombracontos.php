@@ -11,7 +11,7 @@
 
     <header>
         <?php include 'includes/header.php'; 
-        $id = 10; ?>
+        $id = 10;?>
     </header>
     <nav class="mx-auto" style="width: 1140px;" aria-label="breadcrumb">
         <ol class="breadcrumb">
@@ -30,27 +30,7 @@
                 </div>
                 <div class="row">
                     <div class="col img">
-                        <img src="img/kiko_garcia/assombracontos.jpg" alt="Capa do livro">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col img">
-                        <table>
-                            <tr>
-                                <th colspan="2">Assombracontos</th>
-                            </tr>
-                            <tr>
-                                <td>Autor:</td>
-                                <td>Kiko Garcia</td>
-                            </tr>
-                            <tr>
-                                <td>publicado em:</td>
-                                <td>2021</td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">Editora Kikomics</td>
-                            </tr>
-                        </table>
+                    <?php include 'exibeTabelaObra.php';?>
 
                     </div>
                 </div>

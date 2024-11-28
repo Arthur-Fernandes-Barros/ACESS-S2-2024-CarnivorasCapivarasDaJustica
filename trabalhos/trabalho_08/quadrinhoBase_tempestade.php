@@ -4,14 +4,13 @@
 <head>
     <?php include 'includes/head.php'; ?>
     <link rel="stylesheet" href="css/layoutquadrinho.css">
-    <title>Assombracontos</title>
+    <title>A tempestade</title>
 </head>
 
 <body>
 
     <header>
-        <?php include 'includes/header.php'; 
-        $id = 10; ?>
+        <?php include 'includes/header.php'; ?>
     </header>
     <nav class="mx-auto" style="width: 1140px;" aria-label="breadcrumb">
         <ol class="breadcrumb">
@@ -20,38 +19,19 @@
         </ol>
     </nav>
 
+
     <div class="container text-center corpo mt-3">
 
         <main>
             <div class="direita">
                 <div class="title">
-                    <h1>Assombracontos</h1>
+                    <h1>A tempestade</h1>
                     <hr>
                 </div>
                 <div class="row">
                     <div class="col img">
-                        <img src="img/kiko_garcia/assombracontos.jpg" alt="Capa do livro">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col img">
-                        <table>
-                            <tr>
-                                <th colspan="2">Assombracontos</th>
-                            </tr>
-                            <tr>
-                                <td>Autor:</td>
-                                <td>Kiko Garcia</td>
-                            </tr>
-                            <tr>
-                                <td>publicado em:</td>
-                                <td>2021</td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">Editora Kikomics</td>
-                            </tr>
-                        </table>
-
+                    <?php $id = 6;include 'exibeTabelaObra.php';
+                    ?>
                     </div>
                 </div>
             </div>
@@ -59,21 +39,28 @@
 
                 <div class="row sinopse">
                     <div class="title2">
-                        <h1>Assombracontos</h1>
+                        <h1>A tempestade</h1>
                         <hr>
                     </div>
                     <h3>Sinopse:</h3>
                     <p class="fs-4">
-                        "A Coletânea Assombracontos de Kiko Garcia" leva os leitores a um ambiente sombrio e fascinante,
-                        onde quatro jovens se encontram em um antigo cemitério, prontos para compartilhar histórias que
-                        desafiam os limites do medo. Este livro de estreia da Kikomics, em colaboração com a La Ursa
-                        Livros e O Recife Assombrado, apresenta quatro contos habilmente criados por Kiko Garcia e
-                        ilustrados por Roberto Beltrão. Com lendas de sítios, folclore brasileiro e narrativas que
-                        arrepiam a alma, os leitores são conduzidos por um passeio macabro pela imaginação, onde o
-                        terror se entrelaça com a rica tradição oral do Brasil.</p>
-                        <p class="fs-6 text-muted"><small>Sinopse Assombracontos, .[S.
-                            l.], Disponível
-                            em: https://kikomics.com.br. Acesso: 17 jun. 2024.</small></p>
+                        "A Tempestade" de Jefferson Costa é uma releitura contemporânea e vibrante da clássica peça de
+                        William Shakespeare. Este quadrinho traz uma narrativa visual rica e envolvente, ilustrada pelo
+                        próprio Jefferson Costa, que é conhecido por seu trabalho detalhado e expressivo no universo dos
+                        quadrinhos brasileiros.
+
+                        Na história, uma terrível tempestade lança ao mar a tripulação de um navio, forçando-os a buscar
+                        abrigo em uma ilha misteriosa, repleta de monstros e espíritos. Esta ilha é governada por um
+                        mago enigmático, que orquestra os eventos por trás das cortinas, manipulando todos os
+                        personagens em um jogo complexo de vingança e redenção. No coração desta trama, um antigo ódio
+                        encontra sua resolução através de um novo amor, trazendo uma nova perspectiva à clássica
+                        história de Shakespeare.
+
+                        Jefferson Costa mescla elementos de fantasia com uma profundidade emocional, criando uma obra
+                        que ressoa tanto com fãs do original quanto com novos leitores, trazendo à tona temas universais
+                        de perdão, amor e transformação.</p>
+                        <p class="fs-6 text-muted"><small>Sinopse A tempestade, .[S. l.], Disponível
+                        em: https://www.amazon.com.br/Tempestade-Lillo-Parra/dp/856482342X. Acesso:  17 jun. 2024.</small></p>
                 </div>
             </article>
         </main>
@@ -93,28 +80,28 @@
                     <div class="carousel-inner">
                         <div class="carousel-item d-flex justify-content-center active">
                             <!-- INCLUIR IMAGEM DA OBRA -->
-                            <img src="img/kiko_garcia/terraroxa.jpg" class="d-flex justify-content-center  carrouselart"
-                                alt="Obra 1">
+                            <img src="img/Jefferson_costa/jegermias.jpg"
+                                class="d-flex justify-content-center  carrouselart" alt="Obra 1">
                             <div class="carousel-caption d-none d-md-block">
 
                             </div>
                         </div>
                         <div class="carousel-item d-flex justify-content-center">
                             <!-- INCLUIR IMAGEM DA OBRA -->
-                            <img src="img/kiko_garcia/livro1.jpg" class="d-flex justify-content-center  carrouselart"
-                                alt="Obra 2">
+                            <img src="img/Jefferson_costa/ladanzarina.jpg"
+                                class="d-flex justify-content-center  carrouselart" alt="Obra 2">
                             <div class="carousel-caption d-none d-md-block">
                             </div>
                         </div>
 
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                        data-bs-slide="prev">
+                        data-bs-slide="prev" aria-label="botao-para-imagem-a-esquerda">
                         <span class="carousel-control-prev-icon visual" aria-hidden="true"></span>
                         <span class="visually visual"><!--Anterior--></span>
                     </button>
                     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                        data-bs-slide="next">
+                        data-bs-slide="next" aria-label="botao-para-pagina-a-direita">
                         <span class="carousel-control-next-icon visual" aria-hidden="true"></span>
                         <span class="visually"><!--Proximo--></span>
                     </button>
@@ -123,20 +110,21 @@
             <div class="row imagensSpread">
                 <div class="col">
                     <figure>
-                        <a href="quadrinhoBase_terraroxa.php">
-                            <img src="img/kiko_garcia/terraroxa.jpg" alt="livro terra Roxa">
+                        <a href="quadrinhoBase_jeremias.php">
+                            <img src="img/Jefferson_costa/jegermias.jpg" alt="Jeremias-Pele">
 
                         </a>
-                        <figcaption>Terra Roxa</figcaption>
                     </figure>
+                    <figcaption>Jeremias - Pele</figcaption>
                 </div>
                 <div class="col">
                     <figure>
-                        <a href="quadrinhoBase_capapreta.php">
-                            <img src="img/kiko_garcia/livro1.jpg" alt="Livro o homem da capa preta">
+                        <a href="quadrinhoBase_danzarina.php">
+                            <img src="img/Jefferson_costa/ladanzarina.jpg" alt="La Dansarina">
+
                         </a>
-                        <figcaption>O homem da capa Preta</figcaption>
                     </figure>
+                    <figcaption>La Dansarina</figcaption>
                 </div>
 
             </div>

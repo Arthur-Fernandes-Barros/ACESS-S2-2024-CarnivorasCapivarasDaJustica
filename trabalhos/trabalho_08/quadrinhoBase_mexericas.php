@@ -4,14 +4,13 @@
 <head>
     <?php include 'includes/head.php'; ?>
     <link rel="stylesheet" href="css/layoutquadrinho.css">
-    <title>Assombracontos</title>
+    <title>Quadrinho X</title>
 </head>
 
 <body>
 
     <header>
-        <?php include 'includes/header.php'; 
-        $id = 10; ?>
+        <?php include 'includes/header.php'; ?>
     </header>
     <nav class="mx-auto" style="width: 1140px;" aria-label="breadcrumb">
         <ol class="breadcrumb">
@@ -25,33 +24,13 @@
         <main>
             <div class="direita">
                 <div class="title">
-                    <h1>Assombracontos</h1>
+                    <h1>Mexericas</h1>
                     <hr>
                 </div>
                 <div class="row">
                     <div class="col img">
-                        <img src="img/kiko_garcia/assombracontos.jpg" alt="Capa do livro">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col img">
-                        <table>
-                            <tr>
-                                <th colspan="2">Assombracontos</th>
-                            </tr>
-                            <tr>
-                                <td>Autor:</td>
-                                <td>Kiko Garcia</td>
-                            </tr>
-                            <tr>
-                                <td>publicado em:</td>
-                                <td>2021</td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">Editora Kikomics</td>
-                            </tr>
-                        </table>
-
+                    <?php $id = 12;include 'exibeTabelaObra.php';
+                    ?>
                     </div>
                 </div>
             </div>
@@ -59,21 +38,21 @@
 
                 <div class="row sinopse">
                     <div class="title2">
-                        <h1>Assombracontos</h1>
+                        <h1>Mexericas</h1>
                         <hr>
                     </div>
                     <h3>Sinopse:</h3>
                     <p class="fs-4">
-                        "A Coletânea Assombracontos de Kiko Garcia" leva os leitores a um ambiente sombrio e fascinante,
-                        onde quatro jovens se encontram em um antigo cemitério, prontos para compartilhar histórias que
-                        desafiam os limites do medo. Este livro de estreia da Kikomics, em colaboração com a La Ursa
-                        Livros e O Recife Assombrado, apresenta quatro contos habilmente criados por Kiko Garcia e
-                        ilustrados por Roberto Beltrão. Com lendas de sítios, folclore brasileiro e narrativas que
-                        arrepiam a alma, os leitores são conduzidos por um passeio macabro pela imaginação, onde o
-                        terror se entrelaça com a rica tradição oral do Brasil.</p>
-                        <p class="fs-6 text-muted"><small>Sinopse Assombracontos, .[S.
-                            l.], Disponível
-                            em: https://kikomics.com.br. Acesso: 17 jun. 2024.</small></p>
+
+                        Ambientada em uma escola pública de Osasco, em São Paulo, Mexericas é um retrato da duríssima
+                        realidade da educação em um país onde pouca gente se importa de verdade com o assunto. É uma
+                        reflexão, na forma de história em quadrinhos, sobre o valor social da educação, e sobre o papel
+                        das escolas e famílias na formação das crianças. Também é a história sobre duas meninas, sobre
+                        os sonhos que são permitidos a cada um de nós, sobre livros e, claro, sobre mexericas.
+
+                    </p>
+                    <p class="fs-6 text-muted"><small>Sinopse Mexiricas, .[S. l.], Disponível
+                            em: https://sedicao.com.br. Acesso: 17 jun. 2024.</small></p>
                 </div>
             </article>
         </main>
@@ -93,7 +72,7 @@
                     <div class="carousel-inner">
                         <div class="carousel-item d-flex justify-content-center active">
                             <!-- INCLUIR IMAGEM DA OBRA -->
-                            <img src="img/kiko_garcia/terraroxa.jpg" class="d-flex justify-content-center  carrouselart"
+                            <img src="img/rubens/urubus.jpg" class="d-flex justify-content-center  carrouselart"
                                 alt="Obra 1">
                             <div class="carousel-caption d-none d-md-block">
 
@@ -101,7 +80,7 @@
                         </div>
                         <div class="carousel-item d-flex justify-content-center">
                             <!-- INCLUIR IMAGEM DA OBRA -->
-                            <img src="img/kiko_garcia/livro1.jpg" class="d-flex justify-content-center  carrouselart"
+                            <img src="img/rubens/consumidores.jpg" class="d-flex justify-content-center  carrouselart"
                                 alt="Obra 2">
                             <div class="carousel-caption d-none d-md-block">
                             </div>
@@ -123,20 +102,22 @@
             <div class="row imagensSpread">
                 <div class="col">
                     <figure>
-                        <a href="quadrinhoBase_terraroxa.php">
-                            <img src="img/kiko_garcia/terraroxa.jpg" alt="livro terra Roxa">
+                        <a href="quadrinhoBase_consumidores.php">
+                            <img src="img/rubens/consumidores.jpg"
+                                alt="Os Consumidores Selvagens e a Ascensão dos Palhaços">
 
                         </a>
-                        <figcaption>Terra Roxa</figcaption>
                     </figure>
+                    <figcaption>Os Consumidores Selvagens e a Ascensão dos Palhaços</figcaption>
                 </div>
                 <div class="col">
                     <figure>
-                        <a href="quadrinhoBase_capapreta.php">
-                            <img src="img/kiko_garcia/livro1.jpg" alt="Livro o homem da capa preta">
+                        <a href="quadrinhoBase_urubus.php">
+                            <img src="img/rubens/urubus.jpg" alt="Urubus">
+
                         </a>
-                        <figcaption>O homem da capa Preta</figcaption>
                     </figure>
+                    <figcaption>Urubus</figcaption>
                 </div>
 
             </div>
