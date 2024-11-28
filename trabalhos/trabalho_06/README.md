@@ -1,6 +1,7 @@
 # Trabalho trabalho_06
 **Nome do grupo**: CarnivorasCapivarasDaJustica
-**Integrantes**:
+
+**Nomes dos Integrantes**:
 
 Arthur Fernandes Barros
 
