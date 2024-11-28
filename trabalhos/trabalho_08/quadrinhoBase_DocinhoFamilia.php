@@ -26,11 +26,7 @@
                     <h1>Docinho em Família</h1>
                     <hr>
                 </div>
-                <div class="row">
-                    <div class="col img">
-                        <img src="img/vivi_melancia/docinho.png" alt="Docinho em Família">
-                    </div>
-                </div>
+                
                 <div class="row">
                     <div class="col img">
                     <?php $id = 15;include 'exibeTabelaObra.php';

@@ -28,11 +28,6 @@
                 </div>
                 <div class="row">
                     <div class="col img">
-                        <img src="img/esteves/zapata.jpg" alt="Por mais um dia com Zapata">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col img">
                     <?php $id = 3;  
                     include 'exibeTabelaObra.php';
                     ?>

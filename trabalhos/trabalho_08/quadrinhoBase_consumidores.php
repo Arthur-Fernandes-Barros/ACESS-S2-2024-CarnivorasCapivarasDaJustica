@@ -29,12 +29,6 @@
                 </div>
                 <div class="row">
                     <div class="col img">
-                        <img src="img\Rubens\consumidores.jpg"
-                            alt="Os Consumidores Selvagens e a Ascensão dos Palhaços">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col img">
                         <table>
                         <?php  $id = 11;include 'exibeTabelaObra.php';
                     ?>

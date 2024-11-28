@@ -28,11 +28,6 @@
                 </div>
                 <div class="row">
                     <div class="col img">
-                        <img src="img/Jefferson_costa/ladanzarina.jpg" alt="La dansarina">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col img">
                     <?php $id = 7;include 'exibeTabelaObra.php';
                     ?>
                     </div>

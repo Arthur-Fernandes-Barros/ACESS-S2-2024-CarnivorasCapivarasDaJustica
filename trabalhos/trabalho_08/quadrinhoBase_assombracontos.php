@@ -30,11 +30,6 @@
                 </div>
                 <div class="row">
                     <div class="col img">
-                        <img src="img/kiko_garcia/assombracontos.jpg" alt="Capa do livro">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col img">
                     <?php include 'exibeTabelaObra.php';?>
 
                     </div>

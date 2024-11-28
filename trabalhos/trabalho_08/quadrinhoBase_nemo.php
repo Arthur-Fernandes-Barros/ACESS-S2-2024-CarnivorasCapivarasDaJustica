@@ -28,11 +28,6 @@
                 </div>
                 <div class="row">
                     <div class="col img">
-                        <img src="img/esteves/nemo.jpg" alt="As aventuras do Capitão Nemo">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col img">
                     <?php  $id = 2;include 'exibeTabelaObra.php';?>
                     </div>
                 </div>
