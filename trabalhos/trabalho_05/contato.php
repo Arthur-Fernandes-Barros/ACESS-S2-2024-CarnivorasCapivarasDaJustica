@@ -14,37 +14,33 @@
     <section class="sectitulo">
         <h1 class="htitulo">Contate-nos</h1>
     </section>
-    <section class="container text-center corpo">
+    <div class="container text-center corpo">
 
-        <form action="contato.php" method="post" class="p-3" role="form" aria-labelledby="form-heading">
-        <fieldset>
-            <legend id="form-heading">Envie sua dúvida!</legend>
-            <section class="row mb-3">
+        <form action="contato.php" method="post" class="p-3">
+            <div class="row mb-3">
                 <label for="name" class="form-label">Digite seu nome:</label>
                 <input type="text" name="name" id="name" placeholder="Escreva seu nome"
                     class="label col-12 form-control-lg" required>
-            </section>
-            <section class="row mb-3">
+            </div>
+            <div class="row mb-3">
                 <label for="email" class="form-label">Digite o seu email:</label>
                 <input type="email" name="email" id="email" placeholder="Escreva seu e-mail"
                     class="label col-12 form-control-lg" required>
 
-            </section>
-            <section class="row mb-3">
+            </div>
+            <div class="row mb-3">
                 <label for="assunto" class="form-label">Assunto:</label>
                 <input type="text" name="assunto" id="assunto" placeholder="Escreva o assunto"
                     class="label col-12 form-control-lg" required>
-            </section>
-            <section class="mensagem">
-                <label for="mensagem">Sua Mensagem: </label>
-                <textarea name="mcontato" id="mcontato" placeholder="Escreva sua mensagem" aria-labelledby="duvida-label" aria-required="true"
-                    class="form-control-lg"></textarea>
-                    </section>
+            </div>
+            <textarea name="mcontato" id="mcontato" placeholder="Escreva sua mensagem"
+                class="form-control-lg"> Escreva sua mensagem </textarea>
+
             <hr>
-            <input type="submit" value="Enviar mensagem de contato" id="submit" class="btn btn-primary" aria-label="Enviar">
-            </fieldset>
+            <input type="submit" value="Enviar mensagem de contato" id="submit" class="btn btn-primary">
+
         </form>
-    </section>
+    </div>
 
 
     <footer>
