@@ -29,11 +29,6 @@
                 </div>
                 <div class="row">
                     <div class="col img">
-                        <img src="img/kiko_garcia/terraroxa.jpg" alt="Terra Roxa">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col img">
                     <?php $id = 9;
                     include 'exibeTabelaObra.php';
                     ?>

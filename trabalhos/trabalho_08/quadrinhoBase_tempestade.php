@@ -30,11 +30,6 @@
                 </div>
                 <div class="row">
                     <div class="col img">
-                        <img src="img/Jefferson_costa/atempestade.jpg" alt="A tempestade">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col img">
                     <?php $id = 6;include 'exibeTabelaObra.php';
                     ?>
                     </div>

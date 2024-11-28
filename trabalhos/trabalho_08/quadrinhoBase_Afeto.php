@@ -31,11 +31,6 @@
                 </div>
                 <div class="row">
                     <div class="col img">
-                        <img src="img/vivi_melancia/afeto.png" alt="Afeto">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col img">
                         <?php include 'exibeTabelaObra.php';?>
                     </div>
                 </div>

@@ -28,17 +28,6 @@
                     <h1 id="jeremias-pele">Jeremias- Pele</h1>
                     <hr>
                 </div>
-       
-
-
-
-
-                <div class="row">
-
-               <div class="col img">
-                   <img src="img/Jefferson_costa/jegermias.jpg" aria-describedby="imagem-do-quadrinho-jeremias" alt="Jeremias-Pele">
-                </div>
-            </div>
             <div class="row">
                 <div class="col img">
                 <?php $id = 5;include 'exibeTabelaObra.php';

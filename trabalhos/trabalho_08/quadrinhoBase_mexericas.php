@@ -29,11 +29,6 @@
                 </div>
                 <div class="row">
                     <div class="col img">
-                        <img src="img\Rubens\mexericas.jpg" alt="Mexericas">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col img">
                     <?php $id = 12;include 'exibeTabelaObra.php';
                     ?>
                     </div>

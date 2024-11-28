@@ -28,11 +28,6 @@
                 </div>
                 <div class="row">
                     <div class="col img">
-                        <img src="img/esteves/mortos.jpg" alt="São Paulo dos mortos">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col img">
                     <?php  $id = 1;include 'exibeTabelaObra.php';?>
                     </div>
                 </div>

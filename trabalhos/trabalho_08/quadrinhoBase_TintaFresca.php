@@ -29,11 +29,6 @@
                 </div>
                 <div class="row">
                     <div class="col img">
-                        <img src="img/digo_freitas/tintafresca.jpg" alt="">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col img">
                     <?php $id = 4;
                     include 'exibeTabelaObra.php';
                     ?>
