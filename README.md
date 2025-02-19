@@ -11,6 +11,4 @@ O projeto tem como objetivo **aprimorar a acessibilidade digital** através do d
 - **HTML** – Estruturação do conteúdo da aplicação  
 - **Bootstrap** – Estilização responsiva e acessibilidade aprimorada  
 
-## 📂 Estrutura do Projeto  
-
 
